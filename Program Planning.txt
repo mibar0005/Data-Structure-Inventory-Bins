@@ -1,0 +1,15 @@
+Program Planning:
+
+Array:
+This program should have an array of 10 bins.
+Initialize the array with a part description and a number of units in the bin
+
+Algorithm: 
+1. Create and initialize an array of 10 bin structures 
+2. Enter into the loop and continue until the user does not select a bin
+3. Read the user input for a bin and ask to add or remove parts.
+4. Cal the appropiate method to addParts or removeParts
+5. Calculate the number of parts in the bin.
+6. Verify that total number of parts are between 0 and 30
+
+Input Validation: No bin can hold more than 30 parts, do not accept negative values of parts being added or removed.
